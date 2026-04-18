@@ -6,7 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
-  Map<String, String> data = {};
+  Map<String, String> data = {"name": "Youssef", "age": "19"};
 
   @override
   Widget build(BuildContext context) {
